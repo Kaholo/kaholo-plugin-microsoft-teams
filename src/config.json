@@ -1,0 +1,27 @@
+{
+    "name": "MicrosoftTeams",
+    "type": "executer",
+    "description": "",
+    "execProgram": "node",
+    "main": "app.js",
+    "version": "1.0.0",
+    "imgUrl": "icon.png",
+    "methods": [
+        {
+            "name": "sendIncomingWebhook",
+            "viewName": "Send Incoming Webhook",
+            "params": [
+                {
+                    "name": "webhookUrl",
+                    "viewName": "Webhook URL",
+                    "type": "vault"
+                },
+                {
+                    "name": "message",
+                    "viewName": "Message (string, object)",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}
