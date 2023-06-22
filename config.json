@@ -1,11 +1,17 @@
 {
   "name": "MicrosoftTeams",
+  "viewName": "Microsoft Teams",
   "type": "executer",
   "description": "",
   "execProgram": "node",
   "main": "app.js",
   "version": "1.0.2",
   "imgUrl": "icon.png",
+  "keywords": [
+    "microsoft",
+    "teams",
+    "msteams"
+  ],
   "methods": [
     {
       "name": "sendIncomingWebhook",
