@@ -6,7 +6,7 @@
   "execProgram": "node",
   "main": "app.js",
   "version": "1.0.3",
-  "imgUrl": "icon.png",
+  "imgUrl": "logo.png",
   "category": "Notifications",
   "keywords": [
     "microsoft",
