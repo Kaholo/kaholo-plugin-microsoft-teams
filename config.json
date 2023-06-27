@@ -1,11 +1,23 @@
 {
   "name": "MicrosoftTeams",
+  "viewName": "Microsoft Teams",
   "type": "executer",
-  "description": "",
+  "description": "Microsoft 365 business communication platform",
   "execProgram": "node",
   "main": "app.js",
-  "version": "1.0.2",
-  "imgUrl": "icon.png",
+  "version": "1.0.3",
+  "imgUrl": "logo.png",
+  "category": "Notifications",
+  "keywords": [
+    "microsoft",
+    "teams",
+    "msteams",
+    "365",
+    "notify",
+    "send",
+    "message",
+    "webhook"
+  ],
   "methods": [
     {
       "name": "sendIncomingWebhook",
@@ -23,6 +35,5 @@
         }
       ]
     }
-  ],
-  "category": "NOTIFICATIONS"
+  ]
 }
