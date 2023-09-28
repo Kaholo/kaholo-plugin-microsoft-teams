@@ -18,16 +18,21 @@
     "message",
     "webhook"
   ],
+  "auth": {
+    "authId": "TeamsWebhookUrl",
+    "params": [
+      {
+        "name": "webhookUrl",
+        "viewName": "Webhook URL",
+        "type": "vault"
+      }
+    ]
+  },
   "methods": [
     {
       "name": "sendIncomingWebhook",
       "viewName": "Send Incoming Webhook",
       "params": [
-        {
-          "name": "webhookUrl",
-          "viewName": "Webhook URL",
-          "type": "vault"
-        },
         {
           "name": "message",
           "viewName": "Message (string, object)",
